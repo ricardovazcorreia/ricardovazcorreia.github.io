@@ -47,9 +47,9 @@ header .main-menu {
     font-size: 3.4rem;
     font-weight: 900;
 }
-.header_area .main-menu .page-intro h3 {
+.header_area .main-menu .page-intro h3{
     font-family: var(--roboto);
     font-size: 2rem;
     font-weight: 700;
-    color: var(--primary-color);
+    color: var(--primary-color)!important;
 }
