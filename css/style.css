@@ -51,5 +51,5 @@ header .main-menu {
     font-family: var(--roboto);
     font-size: 2rem;
     font-weight: 700;
-    color: var(--primary-color)!important;
+    color: #4A76BD!important;
 }
