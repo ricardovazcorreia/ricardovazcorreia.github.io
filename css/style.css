@@ -48,6 +48,8 @@ header .main-menu {
     font-weight: 900;
 }
 .header_area .main-menu .page-intro h3 {
-    font: normal 900 2rem var(--roboto);
+    font-family: var(--roboto);
+    font-size: 2rem;
+    font-weight: 700;
     color: var(--primary-color);
 }
