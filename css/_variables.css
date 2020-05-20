@@ -1,0 +1,15 @@
+
+
+
+/* Variables */
+:root {
+    --primary-color: #0d47a1;
+    --primary-color: #062A64;
+    --secondary-color: #4A76BD;
+    --title-color: #141414;
+    --gradient-color: linear-gradient(to right, #0d47a1 0%, #062A64 51%, #4A76BD 100%);
+    --text-color: #363636;
+    --box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+
+    --roboto: 'Roboto Mono', monospace;
+}

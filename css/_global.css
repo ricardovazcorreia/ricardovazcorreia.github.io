@@ -1,0 +1,9 @@
+html,
+body{
+    height: 100%;
+}
+
+.logotype {
+    text-transform: uppercase;
+    color: whitesmoke!important;
+}
