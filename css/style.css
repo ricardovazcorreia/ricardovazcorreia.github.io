@@ -7,6 +7,66 @@
 /* Global Styling */
 @import url(./_global.css);
 
+/**** Global ****/
+.site-main .section-title-wrapper {
+    padding-bottom: 2rem;
+}
+.site-main .section-title-wrapper .section-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: var(--roboto);
+    font-weight: 900;
+    color: var(--title-color);
+}
+.site-main .section-title-wrapper h2::before{
+    content: "";
+    height: 4px;
+    width: 2rem;
+    background: #2bd382;
+    display: inline-block;
+    margin-right: 5px;
+}
+.site-main .section-title-wrapper h2::after {
+    content: "";
+    height: 4px;
+    width: 2rem;
+    background: #2bd382;
+    display: inline-block;
+    margin-left: 5px;
+}
+.site-main .para {
+    font-family: var(--roboto);
+    font-size: 15px;
+    color: var(--text-color);
+}
+.social-links .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #2bd382;
+    color: #fff;
+}
+
+.button-primary {
+    background: #2bd382;
+    color: #fff;
+}
+button.button {
+    border-radius: 20px;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding: .6rem 2rem;
+    
+}
+/**** End Global *****/
+
+
 header.header_area{
     background: url('../images/code.jpg') no-repeat center center;
     background-size: cover;
@@ -47,9 +107,25 @@ header .main-menu {
     font-size: 3.4rem;
     font-weight: 900;
 }
+.header_area .main-menu .page-intro h1 > span {
+    opacity: .7;
+}
 .header_area .main-menu .page-intro h3{
     font-family: var(--roboto);
     font-size: 2rem;
     font-weight: 700;
-    color: #4A76BD!important;
+    color: #2bd382!important;
+}
+
+/*** About Area ***/
+.site-main .about-area {
+    background: #f1f1f1;
+}
+.site-main .content {
+    padding: 5rem 0;
+}
+.site-main .about-area .about-description h4 {
+    font-weight: 700;
+    font-family: var(--roboto);
+    color: var(--text-color);
 }
