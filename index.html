@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Progress Bar CSS -->
-    
+    <link rel="stylesheet" href="vendor/progressbar/progresscircle.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- Custom CSS -->
@@ -18,46 +18,46 @@
     <!-- Start Header -->
     <header class="header_area">
         <div class="main-menu">
+            <div class="sticky_menu">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a href="index.html" class="navbar-brand logotype">Ricardo</a>
+                    <button type="button" class="navbar-toggler" data-target="#navbarSite" data-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a href="index.html" class="navbar-brand logotype">Ricardo</a>
-                <button type="button" class="navbar-toggler" data-target="#navbarSite" data-toggle="collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSite">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">CV</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Témoignages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
+                    <div class="collapse navbar-collapse" id="navbarSite">
+                        <div class="mr-auto"></div>
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">CV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Témoignages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
             <!-- Page Intro -->
             <div class="page-intro">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 site-title text-center">
-                            <h1 class="text-uppercase"><span>Ricardo</span> vaz correia</h1>
-                            <h3 class="text-uppercase">Développeur Web</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 site-title text-center">
+                                <h1 class="text-uppercase"><span>Ricardo</span> vaz correia</h1>
+                                <h3 class="text-uppercase">Développeur Web</h3>
+                            </div>
                         </div>
                     </div>
-                </div>
             </div>
             
         </div>
@@ -173,6 +173,101 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                        <div class="card-skill">
+                            <div class="circlechart" data-percentage="85">
+                                MySQL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-skill">
+                            <div class="circlechart" data-percentage="62">
+                                Wordpress
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-skill">
+                            <div class="circlechart" data-percentage="63">
+                                Git/GitHub
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card-skill">
+                            <div class="circlechart" data-percentage="80">
+                                Linux
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg_resume">
+                <div class="container">
+                    <div class="row">
+                        <!-- Experience Column Start -->
+                        <div class="col-md-6">
+                            <div class="resume_items">
+                                <div class="resume__title">
+                                    <h3><i class="fas fa-briefcase"></i> Experience</h3>
+                                </div>
+                                <div class="resume_wrapper">
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <h4 class="timeline_title">Développeur Web</h4>
+                                            <span class="timeline_period">2019 - Présent</span>
+                                            <span class="timeline_company">IPCOM-Technology</span>
+                                            <p class="timeline_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, deserunt?</p>
+                                        </div> 
+                                    </div>
+
+                                    <div class="timeline">
+                                        <div class="timeline-item">
+                                            <h4 class="timeline_title"> Stage Développeur Web</h4>
+                                            <span class="timeline_period">2018 - 2019</span>
+                                            <span class="timeline_company">IPCOM-Technology</span>
+                                            <p class="timeline_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, deserunt?</p>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Experience Column End -->
+
+                        
+                        <!-- Education Column Start -->
+                        <div class="col-md-6">
+                            <div class="resume_items">
+                                    <div class="resume__title">
+                                        <h3><i class="fas fa-university"></i> Education</h3>
+                                    </div>
+                                    <div class="resume_wrapper">
+                                        <div class="timeline">
+                                            <div class="timeline-item">
+                                                <h4 class="timeline_title">Master génie Logiciel</h4>
+                                                <span class="timeline_period">2019 - 2020</span>
+                                                <span class="timeline_company">Université de l'Atlantique "Universat"</span>
+                                                <p class="timeline_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, deserunt?</p>
+                                            </div> 
+                                        </div>
+                                        <div class="timeline">
+                                            <div class="timeline-item">
+                                                <h4 class="timeline_title">Baccalauréat</h4>
+                                                <span class="timeline_period">2011 - 2012</span>
+                                                <span class="timeline_company"> Unidade Escolar 24 de Setembro</span>
+                                                <p class="timeline_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, deserunt?</p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>           
+                        <!-- Education Column End -->
+                    </div>
+                </div>
             </div>
         </section>
         <!-- End Resume Area -->
@@ -202,7 +297,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- Progress Bar JS -->
-    
+    <script src="vendor/progressbar/progresscircle.js"></script>
     <!-- Custom Script -->
     <script src="js/script.js"></script>
 </body>
