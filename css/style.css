@@ -80,6 +80,12 @@ button.button {
     padding: .6rem 2rem;
     
 }
+
+button:focus,
+button:active {
+    box-shadow: none;
+    outline: 0!important;
+}
 /**** End Global *****/
 
 
@@ -172,7 +178,7 @@ header .main-menu {
     padding: 5px 0;
 }
 .site-main .resume-area .skill .skill-name {
-    font-family: 'Roboto Mono', monospace;;
+    font-family: 'Roboto Mono', monospace;
     font-size: 15x;
     font-weight: 700;
     text-transform: uppercase;
@@ -293,6 +299,52 @@ header .main-menu {
     margin-right: 10px;
     padding-right: 10px;
 }
+
+/**** Portfolio Area Start ****/
+.site-main .portfolio-area .button-group button{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 8px 20px;
+}
+.site-main .portfolio-area .button-group button.active {
+    /* background-color: rgba(13,12,34,0.03);
+    color: #0d0c22; */
+    background-color: rgba(1, 169, 130, .9);
+    color: #fff;
+    border-radius: 20px;
+}
+.site-main .portfolio-area .portfolio img {
+    width: 100%;
+    height: 100%;
+}
+.site-main .portfolio-area .portfolio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.site-main .portfolio-area .portfolio .portfolio-title h4{
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+}
+.site-main .portfolio-area .portfolio .portfolio-title span {
+    background-color: #2a2b30;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 8px;
+}
+
+
+
+
+
 
 
 /**** Footer ****/

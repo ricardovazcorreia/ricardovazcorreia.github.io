@@ -1,5 +1,20 @@
 $(document).ready(function() {
-    
+    // isotope  
+    let btns = $('.portfolio-area .button-group button');
+    btns.click(function(e) {
+       $('.portfolio-area .button-group button').removeClass('active');
+       e.target.classList.add('active');
+
+       let selector = $(e.target).attr('data-filter');
+
+       $('.portfolio-area .grid').isotope({
+         filter: selector
+       });
+       return false;
+    })
+
+    // Magnific Popup
+   
 
     // ProgressBar Linear
     $('.skill-per').each(function() {
