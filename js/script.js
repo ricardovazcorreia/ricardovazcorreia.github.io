@@ -54,7 +54,24 @@ $(document).ready(function() {
         });
       }
     }
-    //console.log(nav_offset_top);
     navbarFixed();
+
+
+    /****** Owl-Carousel ******/
+    $(".site-main .testimonial-area .owl-carousel").owlCarousel({
+      loop: true,
+      autoplay: true,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        544: {
+          items: 3
+        }
+      }
+    });
+
+
 
 })
