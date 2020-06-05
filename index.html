@@ -19,7 +19,7 @@
 <body>
     
     <!-- Start Header -->
-    <header class="header_area">
+    <header class="header_area" id="home">
         <div class="main-menu">
             <div class="sticky_menu">
                 <!-- Navbar -->
@@ -33,19 +33,19 @@
                         <div class="mr-auto"></div>
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a href="#" class="nav-link">Home</a>
+                                <a href="#home" class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">A propos</a>
+                                <a href="#about" class="nav-link">À propos</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Portfolio</a>
+                                <a href="#skills" class="nav-link">Compétences</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Témoignages</a>
+                                <a href="#portfolio" class="nav-link">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">Blog</a>
+                                <a href="#testimonials" class="nav-link">Témoignages</a>
                             </li>
                         </ul>
                     </div>
@@ -70,7 +70,7 @@
     <!--------- Main Principal --------->
     <main class="site-main">
         <!--------- Start About Area --------->
-        <section class="about-area content">
+        <section class="about-area content" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center section-title-wrapper">
@@ -105,7 +105,7 @@
         <!--------- End About Area ----------->
 
         <!-- Resume Area Start -->
-        <section class="resume-area content">
+        <section class="resume-area content" id="skills">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center section-title-wrapper">
@@ -114,6 +114,7 @@
                 </div>
             </div>
 
+            <!-- Skills -->
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -209,6 +210,7 @@
                 </div>
             </div>
 
+            <!-- Experience AND Education -->
             <div class="bg_resume">
                 <div class="container">
                     <div class="row">
@@ -252,7 +254,7 @@
                                         <div class="timeline">
                                             <div class="timeline-item">
                                                 <h4 class="timeline_title">Master génie Logiciel</h4>
-                                                <span class="timeline_period">2019 - 2020</span>
+                                                <span class="timeline_period">2018 - 2019</span>
                                                 <span class="timeline_company">Université de l'Atlantique "Universat"</span>
                                                 <p class="timeline_description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, deserunt?</p>
                                             </div> 
@@ -276,7 +278,7 @@
         <!-- Resume Area End -->
 
         <!-- Portfolio Area Start -->
-        <section class="portfolio-area">
+        <section class="portfolio-area" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center section-title-wrapper">
@@ -355,7 +357,7 @@
         <!-- Portfolio Area End -->
 
         <!-- Testimonials Area Start -->
-        <section class="testimonial-area content">
+        <section class="testimonial-area content" id="testimonials">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center section-title-wrapper">
@@ -366,6 +368,7 @@
 
             <div class="container carousel">
                 <div class="owl-carousel owl-theme">
+                    <!-- Chaque .row corresponds a un temoignage-->
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="testimonial">
@@ -387,7 +390,7 @@
                                     <img src="/images/Testimonials/leon.jpeg" alt="Issifou" class="img-fluid">
                                 </div>
                                 <div class="about-testimonial">
-                                    <p>Ricardo, ses qualités humaines et son savoir-faire technique ainsi son entourage fait de lui un développeur spécial qui a toujours gagné la confiance des uns et des autres. De part sa maitrise et son professionnalisme dans le domaine. J'ai toujours eu le privilège de faire partir de ceux avec qui il partage la réussite de ses travaux et de ces moments de loisirs. </p>
+                                    <p>Ricardo Vaz Corréia, Ingénieur Développeur; Ses qualités humaines et son savoir-faire technique ainsi son entourage fait de lui un développeur spécial qui a toujours gagné la confiance des uns et des autres. De part sa maitrise et son professionnalisme dans le domaine. J'ai toujours eu le privilège de faire partir de ceux avec qui il partage la réussite de ses travaux et de ces moments de loisirs. </p>
                                     <h4 class="text-uppercase">Issifou OUB0-GBATI</h4>
                                 </div>
                             </div>
@@ -402,21 +405,22 @@
                                 </div>
                                 <div class="about-testimonial">
                                     <p>Ricardo, ses qualités humaines et son savoir-faire technique ainsi son entourage fait de lui un développeur spécial qui a toujours gagné la confiance des uns et des autres. De part sa maitrise et son professionnalisme dans le domaine. J'ai toujours eu le privilège de faire partir de ceux avec qui il partage la réussite de ses travaux et de ces moments de loisirs.</p>
-                                    <h4 class="text-uppercase">Mamadou Diouf</h4>
+                                    <h4 class="text-uppercase">Mamadou Gana FALL</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!---->
                     <div class="row">
                         <div class="col-12 col-lg-12">
                             <div class="testimonial">
                                 <div class="testimonial-img">
-                                    <img src="/images/Testimonials/leon.jpeg" alt="Issifou" class="img-fluid">
+                                    <img src="/images/Testimonials/Abdou Dramé CISSÉ.jpeg" alt="Abdou Dramé CISSÉ" class="img-fluid">
                                 </div>
                                 <div class="about-testimonial">
-                                    <p>Ricardo, ses qualités humaines et son savoir-faire technique ainsi son entourage fait de lui un développeur spécial qui a toujours gagné la confiance des uns et des autres. De part sa maitrise et son professionnalisme dans le domaine. J'ai toujours eu le privilège de faire partir de ceux avec qui il partage la réussite de ses travaux et de ces moments de loisirs.</p>
-                                    <h4 class="text-uppercase">Cissé</h4>
+                                    <p>Sachez que ces quelques mots ne sont qu'une infime partie de ma reconnaissance et ne peuvent suffire à remplir ma jarre de remerciements et d'éloges à votre égard. Ce fut, pour moi, un très grand honneur d'avoir à mes côtés une personnalité aussi dévouée et talentueuse, qui malgré les obstacles et les difficultés rencontrés, a toujours su faire preuve de recul, d'exigences et de persévérance.</p>
+                                    <h4 class="text-uppercase">Abdou Dramé CISSÉ</h4>
                                 </div>
                             </div>
                         </div>
@@ -426,18 +430,6 @@
             </div>
         </section>
         <!-- Testimonials Area END -->
-
-        <!-- BLOG Area Start -->
-        <section class="blog-area content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center section-title-wrapper">
-                        <h2 class="section-title">Blog</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- BLOG Area END -->
 
 
     </main>
