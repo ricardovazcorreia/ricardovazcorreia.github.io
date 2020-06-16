@@ -7,7 +7,7 @@
 /* Global Styling */
 /*@import url(./_global.css);*/
 
-/****** ******/
+/******  Sticky Bar START ******/
 .navbar_fixed {
     position: fixed;
     width: 100%;
@@ -22,10 +22,15 @@
 .sticky-link {
     color: #141414!important;
 }
+/****** Sticky Bar END ******/
 
 
-/**** Global ****/
+/******* Global ********/
+.site-main .content {
+    padding: 5rem 0;
+}
 .site-main .section-title-wrapper {
+    padding-top: 1rem; 
     padding-bottom: 2rem;
 }
 .site-main .section-title-wrapper .section-title {
@@ -144,9 +149,7 @@ header .main-menu {
 .site-main .about-area {
     background: #f1f1f1;
 }
-.site-main .content {
-    padding: 5rem 0;
-}
+
 .site-main .about-area .about-description h4 {
     font-weight: 700;
     font-family: var(--roboto);
@@ -301,6 +304,9 @@ header .main-menu {
 }
 
 /**** Portfolio Area Start ****/
+.site-main .portfolio-area {
+    border-top: 1px solid #f1f1f1;
+}
 .site-main .portfolio-area .button-group button{
     text-transform: uppercase;
     background-color: transparent;
